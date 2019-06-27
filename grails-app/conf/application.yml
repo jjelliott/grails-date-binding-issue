@@ -36,6 +36,11 @@ management:
 
 ---
 grails:
+  databinding:
+    dateFormats:
+      - "MM/dd/yyyy"
+      - "yyyy-MM-dd"
+      - "MMddyyyy"
     mime:
         disable:
             accept:
